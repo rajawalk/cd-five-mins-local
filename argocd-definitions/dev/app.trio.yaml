@@ -10,9 +10,9 @@ spec:
   project: default
   destination:
     namespace: trio-dev
-    name: CLUSTER_NAME
+    name: kubernetes-admin@kubernetes
   source:
-    repoURL: https://github.com/GITHUB_USER/GITHUB_REPO.git
+    repoURL: https://github.com/rajawalk@gmail.com/cd-five-mins-local.git
     targetRevision: main
     path: ./k8s-resources/trio/dev
     helm:
